@@ -1,0 +1,44 @@
+/* custom css for sticky thead, and to keep buttons right */
+/* to remember: flex-flow is set to column (x/y axis switched around) */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#action_btns {
+    align-self: flex-end;
+}
+
+
+table {
+    flex-grow: 1;
+    overflow-y: scroll;
+    max-width: 100%;
+}
+
+td {
+    padding: 2px 8px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    color: #fff;
+    background-color: #4CAF50 !important;
+}
+
+#po_table {
+    flex-grow: 1;
+    overflow-y: scroll;
+    max-width: 100vw;
+}
+
+#po_table td {
+    padding: 2px 8px;
+}
+
+#po_table th {
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/mhcleaning",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ben",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "maennchen/zipstream-php": "2.*",
+    "ext-curl": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
